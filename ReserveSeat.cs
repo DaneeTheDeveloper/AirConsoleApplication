@@ -6,12 +6,14 @@ namespace AirConsoleApplication
         public static void SelectSeat()
         {
             Console.WriteLine("\n\n********************************");
-            Console.WriteLine("**         Seat Class         **");
+            Console.WriteLine("**           Seat Class           **");
             Console.WriteLine("********************************");
 
-            Console.WriteLine("\n\nSeat Class Selection");
+            Console.WriteLine("\n\nSeat Class Selection:");
             Console.WriteLine("B: Business Class");
             Console.WriteLine("E: Economy Class");
         }
+
+        
     }
 }

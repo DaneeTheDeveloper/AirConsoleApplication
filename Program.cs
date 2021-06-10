@@ -15,7 +15,7 @@ namespace AirConsoleApplication
             Console.WriteLine("S: Seat Verification");
             Console.WriteLine("X: Exit the System");
 
-            Console.WriteLine("\nPlease enter the task you want to perform: ");
+            Console.Write("\nPlease enter the task you want to perform: ");
 
             string selection = Console.ReadLine().ToUpper();
 
@@ -23,8 +23,19 @@ namespace AirConsoleApplication
             if (selection == "R")
             {
                 ReserveSeat.SelectSeat();
+                MainMenuReturn.ReturnToMainMenu();
             }
 
+            if (selection == "S")
+            {
+                VerifySeat.VerifySelectedSeat();
+                MainMenuReturn.ReturnToMainMenu();
+            }
+
+            if (selection == "X")
+            {
+
+            }
 
         }
     }

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace AirConsoleApplication
 {
-    public class VerifySeat
+    public class MainMenuReturn
     {
-        public VerifySeat()
+        public static void ReturnToMainMenu()
         {
         }
     }

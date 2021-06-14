@@ -1,4 +1,6 @@
 ﻿using System;
+using AirConsoleApplication.Reservations;
+
 namespace AirConsoleApplication
 {
     public class ReserveSeat
@@ -14,16 +16,16 @@ namespace AirConsoleApplication
             Console.WriteLine("E: Economy Class");
             Console.WriteLine();
 
-            /*string seatclassselection = Console.ReadLine().ToUpper();
+            string seatclassselection = Console.ReadLine().ToUpper();
 
             if (seatclassselection == "B")
             {
-
+                BusinessClass.BusinessClassReservation();
             }
             if (seatclassselection == "E")
             {
-
-            } */
+                EconomyClass.EconomyClassReservation();
+            } 
         }
 
         

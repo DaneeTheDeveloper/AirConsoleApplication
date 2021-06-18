@@ -1,26 +1,19 @@
 using System;
 using System.Collections.Generic;
-using ConsoleTableExt;
+using ConsoleTables;
 namespace AirConsoleApplication.Reservations
 {
-   public class BusinessClass
+   public class BusinessClass:SeatingClass
    {
      public static void BusinessClassReservation()
         {
-          var tableData = new List<List<object>>
-          {
-            new List<object>{ "Sakura Yamamoto", "Support Engineer", "London", 46},
-            new List<object>{ "Serge Baldwin", "Data Coordinator", "San Francisco", 28, "something else" },
-            new List<object>{ "Shad Decker", "Regional Director", "Edinburgh"},
-          };
-        
-           ConsoleTableBuilder
-            .From(tableData)
-            .ExportAndWriteLine();
+          
+            {
+            
+            }
 
-
-        }
-    }
+        }   
+    }   
 }
 /*
 1. How to build the Console Table and present the rows and columns
